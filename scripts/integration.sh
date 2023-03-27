@@ -1,5 +1,6 @@
 sudo apt update
 sudo apt install default-jdk -y
+sudo apt install curl -y
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 cd /tmp
